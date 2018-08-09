@@ -1,0 +1,10 @@
+*.g.*
+*.cache
+*.props
+*.pdb
+*.dll
+**/.DS_Store
+.DS_Store
+
+**/obj
+**/bin

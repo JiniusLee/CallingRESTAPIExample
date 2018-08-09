@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tweets.Service\TweetServiceClient.csproj" />
+    <ProjectReference Include="..\Tweets.Service.UnitTest\TweetServiceClient.UnitTest.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Blazor.Extensions.Logging" Version="0.1.8" />
+  </ItemGroup>
+</Project>
