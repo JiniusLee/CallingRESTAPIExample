@@ -1,13 +1,13 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetServiceClient", "Tweets.Service\TweetServiceClient.csproj", "{ADD1C8B4-7A73-4CD5-B62D-A0DD20AE349C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetServiceClient.UnitTest", "Tweets.Service.UnitTest\TweetServiceClient.UnitTest.csproj", "{063F02ED-3633-478D-9E4E-978BD2C232E3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetConsole", "TweetConsole\TweetConsole.csproj", "{1AC51F53-DA23-4D9F-8DEE-284CE292191C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetServiceClient.IntTest", "TweetServiceClient.IntTest\TweetServiceClient.IntTest.csproj", "{90F4AC25-1B91-4F3B-B0FB-FAD58EC86489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetServiceClient", "TweetServiceClient\TweetServiceClient.csproj", "{A78470F9-8E0C-441E-BEC1-2A00F5ABB050}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ADD1C8B4-7A73-4CD5-B62D-A0DD20AE349C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ADD1C8B4-7A73-4CD5-B62D-A0DD20AE349C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ADD1C8B4-7A73-4CD5-B62D-A0DD20AE349C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ADD1C8B4-7A73-4CD5-B62D-A0DD20AE349C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{063F02ED-3633-478D-9E4E-978BD2C232E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{063F02ED-3633-478D-9E4E-978BD2C232E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{063F02ED-3633-478D-9E4E-978BD2C232E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -31,5 +27,9 @@ Global
 		{90F4AC25-1B91-4F3B-B0FB-FAD58EC86489}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90F4AC25-1B91-4F3B-B0FB-FAD58EC86489}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90F4AC25-1B91-4F3B-B0FB-FAD58EC86489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78470F9-8E0C-441E-BEC1-2A00F5ABB050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78470F9-8E0C-441E-BEC1-2A00F5ABB050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78470F9-8E0C-441E-BEC1-2A00F5ABB050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78470F9-8E0C-441E-BEC1-2A00F5ABB050}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
