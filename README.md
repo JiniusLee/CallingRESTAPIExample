@@ -28,6 +28,8 @@ Type 1, 2, or 3 to to print in desired manner.
 
 ### Requirements
 This was built on netstandard2.0, netcoreapp2.1, and net461 using newest csproj practice.
-So, to build a run, you need Microsoft.Net Core SDK 2.1 (https://www.microsoft.com/net/download/dotnet-core/2.1)
+So, to build a run, you'll  need Microsoft.Net Core SDK 2.1 (https://www.microsoft.com/net/download/dotnet-core/2.1)
 This works in Windows, Linux, and MacOS.
+
+To use the Dotnet, 
 
