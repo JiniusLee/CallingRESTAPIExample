@@ -29,11 +29,11 @@ Type 1, 2, or 3 to to print in desired manner.
 *The text file will be located where the exec was ran*
 
 To use the Dotnet (Command line)
-Go to where .sln dir is (/src)
-type **dotnet build**
-Go to TweetConsole (/src/TweetConsole)
-type **dotnet run**
-*The text files will be in current directory.*
+*Go to where .sln dir is (/src)
+*type **dotnet build**
+*Go to TweetConsole (/src/TweetConsole)
+*type **dotnet run**
+* *The text files will be in current directory.*
 
 ### Requirements
 This was built on netstandard2.0, and netcoreapp2.1 using newest csproj practice.
