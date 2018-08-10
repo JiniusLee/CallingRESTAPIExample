@@ -1,17 +1,18 @@
 ﻿namespace TweetServiceClient
 {
+    using Microsoft.Extensions.Logging;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
 
     /// <summary>
     /// Contains event types for tweet service logging.
     /// </summary>
-    [JsonConverter(typeof(StringEnumConverter))]
-    public enum TweetServiceLogEvent
+    public static class TweetServiceLogEvent
     {
-        GetTweetAsyncStarted,
-        GetTweetAsyncEnded,
-        GetTweetAsyncException,
-        GetRestOfTweets,
+        public static EventId GetTweetAsyncStarted = new EventId(0);
+        public static EventId GetTweetAsyncEnded = new EventId(1);
+        public static EventId GetTweetAsyncException = new EventId(2);
+        public static EventId GetRestOfTweets = new EventId(3);
+
     }
 }

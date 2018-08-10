@@ -59,7 +59,7 @@
                 // If the result tweet is max capacity, that means there may be more tweets within those time frame.
                 while (partialTweets.Count == MAXCOUNT)
                 {
-                    this.logger.LogInformation("Getting rest of tweets", TweetServiceLogEvent.GetRestOfTweets);
+                    this.logger.LogInformation(TweetServiceLogEvent.GetRestOfTweets, "Getting rest of tweets");
                     // Set the new start time from the last date time offset. Exclude the duplicated tweets.
                     DateTimeOffset newStartTime = partialTweets.Last().stamp;
                     partialTweets = await GetPartialTweetsAsync(newStartTime, endDateTime);
@@ -92,7 +92,7 @@
 
             try
             {
-                this.logger.LogInformation(string.Format("Getting tweets from {0} - {1}", startDateTime.UtcDateTime, endDateTime.UtcDateTime), TweetServiceLogEvent.GetTweetAsyncStarted);
+                this.logger.LogInformation(TweetServiceLogEvent.GetTweetAsyncStarted, string.Format("Getting tweets from {0} - {1}", startDateTime.UtcDateTime, endDateTime.UtcDateTime));
                 // From investigation, following assumptions are made.
                 // 1. It returns the first 100 (or less) tweets.
                 // 2. It returns in order by date time.
@@ -110,15 +110,14 @@
 
                 partialTweets = JsonConvert.DeserializeObject<List<Tweet>>(jsonResult);
 
-                this.logger.LogInformation(string.Format(
-                    "Successfully retrieved {0} tweets", partialTweets.Count), TweetServiceLogEvent.GetTweetAsyncEnded);
-                
+                this.logger.LogInformation(TweetServiceLogEvent.GetTweetAsyncEnded, string.Format(
+                    "Successfully retrieved {0} tweets", partialTweets.Count));
                 return partialTweets;
             }
             catch (Exception ex)
             {
                 // The call did not result as expected.
-                this.logger.LogError(ex, "Failed to get tweets", TweetServiceLogEvent.GetTweetAsyncException);
+                this.logger.LogError(TweetServiceLogEvent.GetTweetAsyncException, ex, "Failed to get tweets");
                 throw;
             }
         }
