@@ -26,3 +26,4 @@ When running, you will be prompted with option of 3 things.
 3. Print all tweets in "logs.txt" file.
 Type 1, 2, or 3 to to print in desired manner.
 
+*The text file will be located where the exec was ran*
