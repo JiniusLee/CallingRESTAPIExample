@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetServiceClient.UnitTest", "Tweets.Service.UnitTest\TweetServiceClient.UnitTest.csproj", "{063F02ED-3633-478D-9E4E-978BD2C232E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetServiceClient.UnitTest", "TweetServiceClient.UnitTest\TweetServiceClient.UnitTest.csproj", "{063F02ED-3633-478D-9E4E-978BD2C232E3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetConsole", "TweetConsole\TweetConsole.csproj", "{1AC51F53-DA23-4D9F-8DEE-284CE292191C}"
 EndProject

@@ -4,7 +4,7 @@ namespace TweetServiceClient.IntTest
     using System.Collections.Generic;
     using System.Net.Http;
     using Xunit;
-    using TweetMocked = TweetServiceClient.UnitTest.TweetServiceClientUnitTests;
+    using TweetMocked = UnitTest.TweetServiceClientUnitTests;
 
     public class TweetServiceClientIntTests
     {
