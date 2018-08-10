@@ -26,15 +26,13 @@ When running, you will be prompted with option of 3 things.
 3. Print all tweets in "logs.txt" file.
 Type 1, 2, or 3 to to print in desired manner.
 
+*The text file will be located where the exec was ran*
+
 To use the Dotnet (Command line)
 Go to where .sln dir is
 type **dotnet build**
-
 
 ### Requirements
 This was built on netstandard2.0, and netcoreapp2.1 using newest csproj practice.
 So, to build a run console / test, you'll  need Microsoft.Net Core SDK 2.1 (https://www.microsoft.com/net/download/dotnet-core/2.1)
 This works in Windows, Linux, and MacOS.
-
-
-
