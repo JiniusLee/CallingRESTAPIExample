@@ -9,6 +9,8 @@ This library is able to log using the Microsoft.Extensions.ILogger.
 There's unit test and intergration test associated with the library. 
 You would potentially be able to use this library by getting the dll.
 
+**There is a design doc to see the design of this library.**
+
 Phase 2: I would add UI that can display UI more friendly.
 I would add pagination support, especailly for UI.
 
