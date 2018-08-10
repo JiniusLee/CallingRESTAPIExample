@@ -18,3 +18,11 @@ I would add pagination support, especailly for UI.
 1. Open Tweets.sln
 2. Make sure to check TweetConsole is set as start up project.
 3. Run. This should open console that displays all the tweets.
+
+#### Run option.
+When running, you will be prompted with option of 3 things.
+1. Print all tweets in console.
+2. Print all tweets in "tweets.txt" file.
+3. Print all tweets in "logs.txt" file.
+Type 1, 2, or 3 to to print in desired manner.
+
