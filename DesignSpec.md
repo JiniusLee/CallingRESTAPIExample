@@ -15,7 +15,7 @@ This is to create a library that can be used to get tweets from the public REST 
 ### Problem
 There is a public API that returns tweets given date time. However, it only returns at most 100 entries. Therefore, we need a way to get tweets without worrying that we may have missed some.
 
-## Architectural Goals
+## Goals
 ### Design goals
 * Identify data model for tweet.
 * Identify classes and function.
@@ -34,7 +34,7 @@ For example, console test should be able to consume the library and get tweets f
 
 ## High Level Architecture
 ### TweetServiceClient
-
+![alt text](https://github.com/JiniusLee/CallingRESTAPIExample/raw/master/etc/architecture.jpg "Architecture")"
 ## Design Details
 ### Tweet
 This is the data model for tweet object. It contains id, timestamp, and text
